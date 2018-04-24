@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
+import Label from './Label'
+import SignUpForm from './SignUpForm'
 
 class App extends Component {
   render() {
     return (
       <div>
-       Insert reusable components here!
+        <SignUpForm 
+          onSubmit={() => console.log('test')}
+        />
       </div>
     )
   }
